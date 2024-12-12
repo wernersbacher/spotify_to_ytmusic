@@ -324,12 +324,6 @@ class Window:
                             shell=True,
                             stdout=subprocess.PIPE,
                         )
-                    except:
-                        subprocess.call(
-                            "xterm -e ytmusicapi browser",
-                            shell=True,
-                            stdout=subprocess.PIPE,
-                        )
                     except Exception as e:
                         print(f"An error occurred: {e}")
 
